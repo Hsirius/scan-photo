@@ -1,0 +1,14 @@
+/dist/
+/node_modules
+**/*.svg
+**/*.sh
+/public/*
+package-lock.json
+package.json
+src/vite-env.d.ts
+tsconfig.json
+tsconfig.node.json
+.vscode/
+.prettierrc.json
+.stylelintrc.json
+README.md

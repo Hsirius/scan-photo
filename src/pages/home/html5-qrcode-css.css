@@ -1,0 +1,102 @@
+/**
+ * html5-qrcode-css
+ * Github: https://github.com/Qiming-Liu/html5-qrcode-css
+ **/
+
+ #reader {
+    border: 0 !important;
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+#reader__dashboard_section_fsr span {
+    display: none !important;
+}
+
+#reader__dashboard_section {
+    padding: 0 !important;
+}
+
+#reader__dashboard_section_swaplink {
+    text-decoration: none !important;
+    border-radius: 2px;
+    margin-top: 1rem;
+    color: #fff;
+    background-color: #1989fa;
+    border: 1px solid #1989fa;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 2.5rem;
+    width: 88%;
+    line-height: 2.5rem;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+    -webkit-appearance: none;
+    -webkit-box-pack: center;
+}
+
+#reader__dashboard_section_csr button {
+    line-height: 1.5715;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    border: 1px solid transparent;
+    box-shadow: 0 2px #00000004;
+    cursor: pointer;
+    transition: all .3s cubic-bezier(.645,.045,.355,1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    height: 32px;
+    padding: 4px 15px;
+    font-size: 14px;
+    border-radius: 2px;
+    color: #000000d9;
+    border-color: #d9d9d9;
+    background: #fff;
+}
+
+#reader__dashboard_section_csr span {
+    margin-right: 0 !important;
+}
+
+#reader__dashboard_section_fsr input {
+    text-decoration: none !important;
+    border-radius: 2px;
+    margin-top: 1rem;
+    color: #fff;
+    background-color: #07c160;
+    border: 1px solid #07c160;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 2.5rem;
+    width: 88% !important;
+    line-height: 2.5rem;
+    text-align: center;
+    cursor: pointer;
+    align-items: center;
+    -webkit-appearance: none;
+    -webkit-box-pack: center;
+}
+
+#reader__camera_selection {
+    background-color: #fff;
+    height: 2.5rem;
+    width: 88%;
+    line-height: 2.5rem;
+    border: 1px solid #1989fa;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}

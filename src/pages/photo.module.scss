@@ -1,0 +1,39 @@
+.camera {
+  width: 100vw;
+  height: 100vh;
+}
+
+.footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100vw;
+  height: 15vh;
+}
+
+.toggleBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background: rgba(169, 169, 169, 0.3);
+  width: 40px;
+  height: 40px;
+}
+
+.takeBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background: rgba(169, 169, 169, 0.3);
+  width: 55px;
+  height: 55px;
+}
+
+.photo {
+  width: 100%;
+}
